@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC9FC8C1D00B20B008A99A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9FC8B1D00B20B008A99A9 /* AppDelegate.swift */; };
+		3BC9FC8E1D00B20B008A99A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9FC8D1D00B20B008A99A9 /* ViewController.swift */; };
+		3BC9FC911D00B20B008A99A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9FC8F1D00B20B008A99A9 /* Main.storyboard */; };
+		3BC9FC931D00B20B008A99A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9FC921D00B20B008A99A9 /* Assets.xcassets */; };
+		3BC9FC961D00B20B008A99A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9FC941D00B20B008A99A9 /* LaunchScreen.storyboard */; };
+		3BC9FCA11D00B20B008A99A9 /* UberfyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9FCA01D00B20B008A99A9 /* UberfyAppTests.swift */; };
+		3BC9FCAC1D00B20B008A99A9 /* UberfyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9FCAB1D00B20B008A99A9 /* UberfyAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BC9FC9D1D00B20B008A99A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BC9FC801D00B20B008A99A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BC9FC871D00B20B008A99A9;
+			remoteInfo = UberfyApp;
+		};
+		3BC9FCA81D00B20B008A99A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BC9FC801D00B20B008A99A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BC9FC871D00B20B008A99A9;
+			remoteInfo = UberfyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BC9FC881D00B20B008A99A9 /* UberfyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberfyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC9FC8B1D00B20B008A99A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BC9FC8D1D00B20B008A99A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BC9FC901D00B20B008A99A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BC9FC921D00B20B008A99A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BC9FC951D00B20B008A99A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BC9FC971D00B20B008A99A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC9FC9C1D00B20B008A99A9 /* UberfyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberfyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC9FCA01D00B20B008A99A9 /* UberfyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberfyAppTests.swift; sourceTree = "<group>"; };
+		3BC9FCA21D00B20B008A99A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC9FCA71D00B20B008A99A9 /* UberfyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberfyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC9FCAB1D00B20B008A99A9 /* UberfyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberfyAppUITests.swift; sourceTree = "<group>"; };
+		3BC9FCAD1D00B20C008A99A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BC9FC851D00B20B008A99A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC9FC991D00B20B008A99A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC9FCA41D00B20B008A99A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC9FC7F1D00B20B008A99A9 = {
+			isa = PBXGroup;
+			children = (
+				3BC9FC8A1D00B20B008A99A9 /* UberfyApp */,
+				3BC9FC9F1D00B20B008A99A9 /* UberfyAppTests */,
+				3BC9FCAA1D00B20B008A99A9 /* UberfyAppUITests */,
+				3BC9FC891D00B20B008A99A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BC9FC891D00B20B008A99A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9FC881D00B20B008A99A9 /* UberfyApp.app */,
+				3BC9FC9C1D00B20B008A99A9 /* UberfyAppTests.xctest */,
+				3BC9FCA71D00B20B008A99A9 /* UberfyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BC9FC8A1D00B20B008A99A9 /* UberfyApp */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9FC8B1D00B20B008A99A9 /* AppDelegate.swift */,
+				3BC9FC8D1D00B20B008A99A9 /* ViewController.swift */,
+				3BC9FC8F1D00B20B008A99A9 /* Main.storyboard */,
+				3BC9FC921D00B20B008A99A9 /* Assets.xcassets */,
+				3BC9FC941D00B20B008A99A9 /* LaunchScreen.storyboard */,
+				3BC9FC971D00B20B008A99A9 /* Info.plist */,
+			);
+			path = UberfyApp;
+			sourceTree = "<group>";
+		};
+		3BC9FC9F1D00B20B008A99A9 /* UberfyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9FCA01D00B20B008A99A9 /* UberfyAppTests.swift */,
+				3BC9FCA21D00B20B008A99A9 /* Info.plist */,
+			);
+			path = UberfyAppTests;
+			sourceTree = "<group>";
+		};
+		3BC9FCAA1D00B20B008A99A9 /* UberfyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9FCAB1D00B20B008A99A9 /* UberfyAppUITests.swift */,
+				3BC9FCAD1D00B20C008A99A9 /* Info.plist */,
+			);
+			path = UberfyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BC9FC871D00B20B008A99A9 /* UberfyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC9FCB01D00B20C008A99A9 /* Build configuration list for PBXNativeTarget "UberfyApp" */;
+			buildPhases = (
+				3BC9FC841D00B20B008A99A9 /* Sources */,
+				3BC9FC851D00B20B008A99A9 /* Frameworks */,
+				3BC9FC861D00B20B008A99A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberfyApp;
+			productName = UberfyApp;
+			productReference = 3BC9FC881D00B20B008A99A9 /* UberfyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BC9FC9B1D00B20B008A99A9 /* UberfyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC9FCB31D00B20C008A99A9 /* Build configuration list for PBXNativeTarget "UberfyAppTests" */;
+			buildPhases = (
+				3BC9FC981D00B20B008A99A9 /* Sources */,
+				3BC9FC991D00B20B008A99A9 /* Frameworks */,
+				3BC9FC9A1D00B20B008A99A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BC9FC9E1D00B20B008A99A9 /* PBXTargetDependency */,
+			);
+			name = UberfyAppTests;
+			productName = UberfyAppTests;
+			productReference = 3BC9FC9C1D00B20B008A99A9 /* UberfyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BC9FCA61D00B20B008A99A9 /* UberfyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC9FCB61D00B20C008A99A9 /* Build configuration list for PBXNativeTarget "UberfyAppUITests" */;
+			buildPhases = (
+				3BC9FCA31D00B20B008A99A9 /* Sources */,
+				3BC9FCA41D00B20B008A99A9 /* Frameworks */,
+				3BC9FCA51D00B20B008A99A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BC9FCA91D00B20B008A99A9 /* PBXTargetDependency */,
+			);
+			name = UberfyAppUITests;
+			productName = UberfyAppUITests;
+			productReference = 3BC9FCA71D00B20B008A99A9 /* UberfyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BC9FC801D00B20B008A99A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = neorose;
+				TargetAttributes = {
+					3BC9FC871D00B20B008A99A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3BC9FC9B1D00B20B008A99A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3BC9FC871D00B20B008A99A9;
+					};
+					3BC9FCA61D00B20B008A99A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3BC9FC871D00B20B008A99A9;
+					};
+				};
+			};
+			buildConfigurationList = 3BC9FC831D00B20B008A99A9 /* Build configuration list for PBXProject "UberfyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BC9FC7F1D00B20B008A99A9;
+			productRefGroup = 3BC9FC891D00B20B008A99A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BC9FC871D00B20B008A99A9 /* UberfyApp */,
+				3BC9FC9B1D00B20B008A99A9 /* UberfyAppTests */,
+				3BC9FCA61D00B20B008A99A9 /* UberfyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BC9FC861D00B20B008A99A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC9FC961D00B20B008A99A9 /* LaunchScreen.storyboard in Resources */,
+				3BC9FC931D00B20B008A99A9 /* Assets.xcassets in Resources */,
+				3BC9FC911D00B20B008A99A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC9FC9A1D00B20B008A99A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC9FCA51D00B20B008A99A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BC9FC841D00B20B008A99A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC9FC8E1D00B20B008A99A9 /* ViewController.swift in Sources */,
+				3BC9FC8C1D00B20B008A99A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC9FC981D00B20B008A99A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC9FCA11D00B20B008A99A9 /* UberfyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC9FCA31D00B20B008A99A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC9FCAC1D00B20B008A99A9 /* UberfyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BC9FC9E1D00B20B008A99A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BC9FC871D00B20B008A99A9 /* UberfyApp */;
+			targetProxy = 3BC9FC9D1D00B20B008A99A9 /* PBXContainerItemProxy */;
+		};
+		3BC9FCA91D00B20B008A99A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BC9FC871D00B20B008A99A9 /* UberfyApp */;
+			targetProxy = 3BC9FCA81D00B20B008A99A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BC9FC8F1D00B20B008A99A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC9FC901D00B20B008A99A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BC9FC941D00B20B008A99A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC9FC951D00B20B008A99A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BC9FCAE1D00B20C008A99A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BC9FCAF1D00B20C008A99A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BC9FCB11D00B20C008A99A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberfyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BC9FCB21D00B20C008A99A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberfyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BC9FCB41D00B20C008A99A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UberfyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberfyApp.app/UberfyApp";
+			};
+			name = Debug;
+		};
+		3BC9FCB51D00B20C008A99A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UberfyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberfyApp.app/UberfyApp";
+			};
+			name = Release;
+		};
+		3BC9FCB71D00B20C008A99A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UberfyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UberfyApp;
+			};
+			name = Debug;
+		};
+		3BC9FCB81D00B20C008A99A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UberfyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UberfyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BC9FC831D00B20B008A99A9 /* Build configuration list for PBXProject "UberfyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC9FCAE1D00B20C008A99A9 /* Debug */,
+				3BC9FCAF1D00B20C008A99A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC9FCB01D00B20C008A99A9 /* Build configuration list for PBXNativeTarget "UberfyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC9FCB11D00B20C008A99A9 /* Debug */,
+				3BC9FCB21D00B20C008A99A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BC9FCB31D00B20C008A99A9 /* Build configuration list for PBXNativeTarget "UberfyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC9FCB41D00B20C008A99A9 /* Debug */,
+				3BC9FCB51D00B20C008A99A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BC9FCB61D00B20C008A99A9 /* Build configuration list for PBXNativeTarget "UberfyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC9FCB71D00B20C008A99A9 /* Debug */,
+				3BC9FCB81D00B20C008A99A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BC9FC801D00B20B008A99A9 /* Project object */;
+}
