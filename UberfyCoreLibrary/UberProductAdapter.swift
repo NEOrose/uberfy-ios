@@ -28,7 +28,7 @@ public final class UberProductAdapter : UberProduct {
     
     convenience public init(json: JSON) {
         self.init()
-        self.uberTypeRaw = json["localized_display_name"].stringValue
+        self.uberTypeRaw = json["localized_display_name"].stringValue.uppercaseString
         self.surgeMultiplier = json["surge_multiplier"].doubleValue
     }
 }

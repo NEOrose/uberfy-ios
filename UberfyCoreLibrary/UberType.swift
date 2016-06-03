@@ -9,7 +9,8 @@
 public enum UberType : String {
     case UberX = "UBERX"
     case UberBlack = "UBERBLACK"
-    case UberPool = "UBERPOOL"
     case UberEnglishX = "UBERENGLISH"
     case UberEnglishBlack = "UBERENGLISH2"
+    
+    static var count: Int { return UberType.UberEnglishBlack.hashValue + 1}
 }

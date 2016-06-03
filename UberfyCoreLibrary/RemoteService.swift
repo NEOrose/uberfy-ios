@@ -13,7 +13,7 @@ public class RemoteService {
     
     private var configuration : NSURLSessionConfiguration!
     private var baseUrl : String = "https://api.uber.com/v1"
-    var _serverToken = "serverTokenHere"
+    var _serverToken = "bzcOzr3zs6AuxhHwPEj8TnyM8faiGrQE6MTx_v1r"
     
     let service : Service!
     

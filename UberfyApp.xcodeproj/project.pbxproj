@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		05178A2FDA8BC0B74AFA4BB6 /* Pods_UberfyCoreLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABF43970198AB96E85D482F /* Pods_UberfyCoreLibraryTests.framework */; };
 		3B1DB1D51D00F407001085D5 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1DB1A71D00ECC9001085D5 /* NotificationCenter.framework */; };
-		3B1DB1D81D00F407001085D5 /* WidgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1D71D00F407001085D5 /* WidgetViewController.swift */; };
+		3B1DB1D81D00F407001085D5 /* WidgetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1D71D00F407001085D5 /* WidgetVC.swift */; };
 		3B1DB1DF1D00F407001085D5 /* UberfyWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3B1DB1D41D00F407001085D5 /* UberfyWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3B1DB1E31D00F5BB001085D5 /* UberfyCoreLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC9FCBE1D00B263008A99A9 /* UberfyCoreLibrary.framework */; };
 		3B1DB1E71D00F831001085D5 /* WidgetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1E61D00F831001085D5 /* WidgetPresenter.swift */; };
 		3B1DB1E91D00F878001085D5 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1E81D00F878001085D5 /* BasePresenter.swift */; };
 		3B1DB1EB1D00F898001085D5 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1EA1D00F898001085D5 /* BaseView.swift */; };
 		3B1DB1EF1D00FFAD001085D5 /* WidgetUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1EE1D00FFAD001085D5 /* WidgetUI.swift */; };
+		3B1DB1F11D011967001085D5 /* WidgetConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1F01D011967001085D5 /* WidgetConfigurator.swift */; };
 		3BC9FC8C1D00B20B008A99A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9FC8B1D00B20B008A99A9 /* AppDelegate.swift */; };
 		3BC9FC8E1D00B20B008A99A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9FC8D1D00B20B008A99A9 /* ViewController.swift */; };
 		3BC9FC911D00B20B008A99A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9FC8F1D00B20B008A99A9 /* Main.storyboard */; };
@@ -123,12 +124,13 @@
 		3229D1D71F55447AAE629627 /* Pods-UberfyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberfyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UberfyApp/Pods-UberfyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3B1DB1A71D00ECC9001085D5 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		3B1DB1D41D00F407001085D5 /* UberfyWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UberfyWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B1DB1D71D00F407001085D5 /* WidgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetViewController.swift; sourceTree = "<group>"; };
+		3B1DB1D71D00F407001085D5 /* WidgetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetVC.swift; sourceTree = "<group>"; };
 		3B1DB1DC1D00F407001085D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B1DB1E61D00F831001085D5 /* WidgetPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetPresenter.swift; sourceTree = "<group>"; };
 		3B1DB1E81D00F878001085D5 /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
 		3B1DB1EA1D00F898001085D5 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		3B1DB1EE1D00FFAD001085D5 /* WidgetUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetUI.swift; sourceTree = "<group>"; };
+		3B1DB1F01D011967001085D5 /* WidgetConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetConfigurator.swift; sourceTree = "<group>"; };
 		3BC9FC881D00B20B008A99A9 /* UberfyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberfyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC9FC8B1D00B20B008A99A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC9FC8D1D00B20B008A99A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -223,14 +225,23 @@
 		3B1DB1D61D00F407001085D5 /* UberfyWidget */ = {
 			isa = PBXGroup;
 			children = (
-				3B1DB1D71D00F407001085D5 /* WidgetViewController.swift */,
-				3B1DB1DC1D00F407001085D5 /* Info.plist */,
-				3B1DB1E61D00F831001085D5 /* WidgetPresenter.swift */,
 				3B1DB1E81D00F878001085D5 /* BasePresenter.swift */,
 				3B1DB1EA1D00F898001085D5 /* BaseView.swift */,
-				3B1DB1EE1D00FFAD001085D5 /* WidgetUI.swift */,
+				3B1DB1F41D011B93001085D5 /* WidgetScope */,
+				3B1DB1DC1D00F407001085D5 /* Info.plist */,
 			);
 			path = UberfyWidget;
+			sourceTree = "<group>";
+		};
+		3B1DB1F41D011B93001085D5 /* WidgetScope */ = {
+			isa = PBXGroup;
+			children = (
+				3B1DB1EE1D00FFAD001085D5 /* WidgetUI.swift */,
+				3B1DB1D71D00F407001085D5 /* WidgetVC.swift */,
+				3B1DB1E61D00F831001085D5 /* WidgetPresenter.swift */,
+				3B1DB1F01D011967001085D5 /* WidgetConfigurator.swift */,
+			);
+			name = WidgetScope;
 			sourceTree = "<group>";
 		};
 		3BC9FC7F1D00B20B008A99A9 = {
@@ -714,8 +725,9 @@
 			files = (
 				3B1DB1E71D00F831001085D5 /* WidgetPresenter.swift in Sources */,
 				3B1DB1EF1D00FFAD001085D5 /* WidgetUI.swift in Sources */,
+				3B1DB1F11D011967001085D5 /* WidgetConfigurator.swift in Sources */,
 				3B1DB1E91D00F878001085D5 /* BasePresenter.swift in Sources */,
-				3B1DB1D81D00F407001085D5 /* WidgetViewController.swift in Sources */,
+				3B1DB1D81D00F407001085D5 /* WidgetVC.swift in Sources */,
 				3B1DB1EB1D00F898001085D5 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
