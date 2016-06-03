@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import UberfyCoreLibrary
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    var u : UberProduct?
 
     var window: UIWindow?
 

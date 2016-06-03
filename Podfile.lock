@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (3.4.0)
+  - Siesta (1.0-beta.6):
+    - Siesta/Core (= 1.0-beta.6)
+  - Siesta/Alamofire (1.0-beta.6):
+    - Alamofire (> 2)
+    - Siesta/Core
+  - Siesta/Core (1.0-beta.6)
+  - Spring (1.0.3)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Siesta (>= 1.0-beta.6)
+  - Siesta/Alamofire
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+  SwiftyJSON:
+    :commit: 2a5b70f06001316d4fb54501edc70b4084705da0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  Siesta: 353fba713b4ce9112c26f6b5038ccebeb897f60b
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 3381e4364af7e284b476f0e1906af28d2de8a583
+
+COCOAPODS: 1.0.0
