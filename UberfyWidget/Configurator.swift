@@ -7,9 +7,9 @@
 //
 import UIKit
 
-class WidgetConfigurator {
+class Configurator {
     
-    static let sharedInstance = WidgetConfigurator()
+    static let sharedInstance = Configurator()
     
     private init() {
     }

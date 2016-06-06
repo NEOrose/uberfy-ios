@@ -16,7 +16,7 @@
 		3B1DB1E91D00F878001085D5 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1E81D00F878001085D5 /* BasePresenter.swift */; };
 		3B1DB1EB1D00F898001085D5 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1EA1D00F898001085D5 /* BaseView.swift */; };
 		3B1DB1EF1D00FFAD001085D5 /* WidgetUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1EE1D00FFAD001085D5 /* WidgetUI.swift */; };
-		3B1DB1F11D011967001085D5 /* WidgetConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1F01D011967001085D5 /* WidgetConfigurator.swift */; };
+		3B1DB1F11D011967001085D5 /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DB1F01D011967001085D5 /* Configurator.swift */; };
 		3BC9FC8C1D00B20B008A99A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9FC8B1D00B20B008A99A9 /* AppDelegate.swift */; };
 		3BC9FC8E1D00B20B008A99A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9FC8D1D00B20B008A99A9 /* ViewController.swift */; };
 		3BC9FC911D00B20B008A99A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9FC8F1D00B20B008A99A9 /* Main.storyboard */; };
@@ -130,7 +130,7 @@
 		3B1DB1E81D00F878001085D5 /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
 		3B1DB1EA1D00F898001085D5 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		3B1DB1EE1D00FFAD001085D5 /* WidgetUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetUI.swift; sourceTree = "<group>"; };
-		3B1DB1F01D011967001085D5 /* WidgetConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetConfigurator.swift; sourceTree = "<group>"; };
+		3B1DB1F01D011967001085D5 /* Configurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
 		3BC9FC881D00B20B008A99A9 /* UberfyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberfyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC9FC8B1D00B20B008A99A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC9FC8D1D00B20B008A99A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -227,6 +227,7 @@
 			children = (
 				3B1DB1E81D00F878001085D5 /* BasePresenter.swift */,
 				3B1DB1EA1D00F898001085D5 /* BaseView.swift */,
+				3B1DB1F01D011967001085D5 /* Configurator.swift */,
 				3B1DB1F41D011B93001085D5 /* WidgetScope */,
 				3B1DB1DC1D00F407001085D5 /* Info.plist */,
 			);
@@ -239,7 +240,6 @@
 				3B1DB1EE1D00FFAD001085D5 /* WidgetUI.swift */,
 				3B1DB1D71D00F407001085D5 /* WidgetVC.swift */,
 				3B1DB1E61D00F831001085D5 /* WidgetPresenter.swift */,
-				3B1DB1F01D011967001085D5 /* WidgetConfigurator.swift */,
 			);
 			name = WidgetScope;
 			sourceTree = "<group>";
@@ -725,7 +725,7 @@
 			files = (
 				3B1DB1E71D00F831001085D5 /* WidgetPresenter.swift in Sources */,
 				3B1DB1EF1D00FFAD001085D5 /* WidgetUI.swift in Sources */,
-				3B1DB1F11D011967001085D5 /* WidgetConfigurator.swift in Sources */,
+				3B1DB1F11D011967001085D5 /* Configurator.swift in Sources */,
 				3B1DB1E91D00F878001085D5 /* BasePresenter.swift in Sources */,
 				3B1DB1D81D00F407001085D5 /* WidgetVC.swift in Sources */,
 				3B1DB1EB1D00F898001085D5 /* BaseView.swift in Sources */,
@@ -845,7 +845,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = UberfyWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyApp.UberfyWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorose.UberfyApp.UberfyWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -857,7 +857,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = UberfyWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyApp.UberfyWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorose.UberfyApp.UberfyWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -954,7 +954,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = UberfyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorose.UberfyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -967,7 +967,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = UberfyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorose.UberfyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1031,7 +1031,7 @@
 				INFOPLIST_FILE = UberfyCoreLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyCoreLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorose.UberfyCoreLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1054,7 +1054,7 @@
 				INFOPLIST_FILE = UberfyCoreLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = neorose.m4u.UberfyCoreLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorose.UberfyCoreLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1097,6 +1097,7 @@
 				3B1DB1E21D00F407001085D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BC9FC831D00B20B008A99A9 /* Build configuration list for PBXProject "UberfyApp" */ = {
 			isa = XCConfigurationList;

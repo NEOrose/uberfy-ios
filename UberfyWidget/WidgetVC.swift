@@ -26,7 +26,7 @@ class WidgetViewController: UIViewController, WidgetView, NCWidgetProviding {
     }
     
     override func loadView() {
-        WidgetConfigurator.sharedInstance.configure(self)
+        Configurator.sharedInstance.configure(self)
         view = _widgetUI.returnView()
     }
 
